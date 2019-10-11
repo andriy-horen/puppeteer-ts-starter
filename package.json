@@ -1,0 +1,21 @@
+{
+    "name": "puppeteer-ts-starter",
+    "version": "0.0.1",
+    "description": "A simple typescript template for a puppeteer project",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node ./src/index.ts",
+        "dev": "nodemon --watch src/**/*.ts --exec npx ts-node src/index.ts"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "nodemon": "^1.19.3",
+        "puppeteer": "^1.20.0",
+        "ts-node": "^8.4.1",
+        "typescript": "^3.6.4"
+    },
+    "devDependencies": {
+        "@types/puppeteer": "^1.20.2"
+    }
+}
